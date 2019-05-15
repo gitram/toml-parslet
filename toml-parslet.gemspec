@@ -6,10 +6,10 @@ require 'toml/version'
 Gem::Specification.new do |gem|
   gem.name          = "toml-parslet"
   gem.version       = TOML::VERSION
-  gem.authors       = ["Nathan Witmer"]
-  gem.email         = ["nwitmer@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.authors       = ["Nathan Witmer, Ram Ravichandran"]
+  gem.email         = ["@ram"]
+  gem.description   = ["TOML parser that actually works"]
+  gem.summary       = ["TOML parser that actually works"]
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
